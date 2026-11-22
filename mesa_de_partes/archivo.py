@@ -1,4 +1,5 @@
-import datos
+# archivo.py - Lectura y escritura del archivo de texto con "|" (Figuras 1 y 2).
+from . import datos
 
 
 def cargar_archivo():

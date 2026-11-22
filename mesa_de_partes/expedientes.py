@@ -1,9 +1,10 @@
+# expedientes.py - Registro y búsqueda secuencial de expedientes (Figuras 2 y 3).
 from datetime import date
 
-import datos as datos
-from validacion import pedir_texto, pedir_entero, pedir_opcion
-from archivo import guardar_archivo
-from reportes import mostrar_ficha
+from . import datos
+from .validacion import pedir_texto, pedir_entero, pedir_opcion
+from .archivo import guardar_archivo
+from .reportes import mostrar_ficha
 
 
 def generar_codigo():

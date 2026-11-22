@@ -1,3 +1,6 @@
+# datos.py - Constantes y arreglos paralelos compartidos por todos los módulos.
+# La posición i de todos los arreglos corresponde al mismo expediente.
+
 ARCHIVO = "expedientes.txt"
 TIPOS = ["solicitud", "afiche", "resolución", "oficio", "carta"]
 AREAS = ["dirección", "plana docente", "padres de familia", "otro"]

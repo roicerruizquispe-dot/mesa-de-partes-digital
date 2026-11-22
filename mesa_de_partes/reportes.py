@@ -1,5 +1,5 @@
 # reportes.py - Todo lo que se muestra en pantalla: ficha y reporte.
-import datos
+from . import datos
 
 
 def mostrar_ficha(i, titulo="FICHA DEL EXPEDIENTE"):

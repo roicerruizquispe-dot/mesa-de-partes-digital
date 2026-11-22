@@ -1,4 +1,5 @@
-import datos
+# ordenamiento.py - Ordenamiento por selección (Figura 4).
+from . import datos
 
 
 def intercambiar(a, b):
