@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+*.egg-info/
+# datos generados al usar el programa
+expedientes.txt

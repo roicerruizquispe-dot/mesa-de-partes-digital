@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mesa_de_partes"
+version = "1.0.0"
+description = "Mesa de partes digital con arreglos paralelos, archivo de texto, búsqueda secuencial y ordenamiento por selección"
+requires-python = ">=3.8"
+
+[project.scripts]
+mesa-de-partes = "mesa_de_partes.main:main"
+
+[tool.setuptools]
+packages = ["mesa_de_partes"]
