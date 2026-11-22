@@ -1,3 +1,6 @@
+# validacion.py - Funciones de entrada con validación (Figura 2).
+
+
 def pedir_texto(mensaje, minimo=1, exigir_letras=False):
     # repite hasta que el texto sea válido: no vacío, sin "|", con longitud mínima
     # y (si se pide) con al menos una letra
